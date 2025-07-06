@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Binary Tree Height Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌳 Binary Tree Height Calculator</h1>
+
+    <div class="controls">
+      <input type="number" id="nodeValue" placeholder="Enter node value" />
+      <button onclick="insertNode()">Insert Node</button>
+      <button onclick="calculateHeight()">Calculate Height</button>
+      <button onclick="resetTree()">Reset Tree</button>
+      <button id="toggleMode">🌙 Dark Mode</button>
+    </div>
+
+    <div id="output"></div>
+    <canvas id="treeCanvas" width="800" height="400"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
